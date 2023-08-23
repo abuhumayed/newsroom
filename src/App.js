@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { NavBar } from "./components/NavBar";
+import { ThemeProvider } from "styled-components";
+import { FONTS } from "./theme";
+import { WebsiteLogo } from "./components/WebsiteLogo";
+import { Spotlight } from "./components/Spotlight";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={{ fonts: FONTS }} >
+       <WebsiteLogo/>   
+      <NavBar />
+      <Spotlight/>
+    </ThemeProvider>
   );
 }
 
