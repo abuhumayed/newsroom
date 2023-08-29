@@ -5,6 +5,7 @@ width: 100%;
 
 
 .nav-items{
+position: sticky;
 width:100%;
 background-color:black;
 text-align : center;
