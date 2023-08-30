@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-
-.article-card{
+margin :0px 15px 15px 15px;
     display: flex;
 flex-direction: column; 
-    border: 1px solid black;
+
     max-width: 400px;
     align-items: center;
     img{
@@ -58,6 +57,10 @@ flex-direction: column;
         .vertical-centred{
             display: flex;
             align-items: center;
+        }
+
+        .more{
+            text-decoration: underline;
         }
     }
 }
