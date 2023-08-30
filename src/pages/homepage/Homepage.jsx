@@ -1,7 +1,9 @@
 import React from 'react'
 import { Spotlight } from '../../components/Spotlight'
 import { ArticleCard } from '../../components/ArticleCard'
+import { LiveNews } from '../../components/LiveNews'
 import { StyledContainer } from './homepage.style'
+
 
 import articles from "../../data/articles.json"
 import QuickInfoCard from '../../components/QuickInfoCard/quickInfoCard'
@@ -27,10 +29,11 @@ function Homepage(props) {
               />
             )
             ) }
-           
+             <LiveNews/>
             
           </div>
           <div className="quick-info-section">
+        
 
             {/* Mapping through quick JSON file array */}
             
@@ -43,8 +46,11 @@ function Homepage(props) {
           </div>
         </div>
       </div>
+    
     </StyledContainer>
+    
   );
+  
 }
 
 export default Homepage;

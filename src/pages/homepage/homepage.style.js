@@ -13,9 +13,11 @@ export const StyledContainer = styled.div`
       display: flex;
       .articles-section{
          display: flex;
+         
          max-width:78%;
          flex-wrap: wrap;
          border-right: solid 1px black;
+         
 
       }
       .quick-info-section{
