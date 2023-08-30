@@ -15,11 +15,15 @@ function Homepage(props) {
         
         <div className="news-container">
           <div className="articles-section">
-            {articles.map(({urlToImage,title,description}) => (
+
+            {/* Mapping through articles JSON file array */}
+            {articles.map(({urlToImage,title,description,commentCount,likeCount}) => (
               <ArticleCard
                 img={urlToImage}
                 title={title}
-                description = {description}
+                description={description}
+                commentCount={commentCount}
+                likeCount={likeCount}
               />
             )
             ) }
@@ -27,6 +31,9 @@ function Homepage(props) {
             
           </div>
           <div className="quick-info-section">
+
+            {/* Mapping through quick JSON file array */}
+            
             {quick.map(({title,description})=> (
               <QuickInfoCard
               title={title}

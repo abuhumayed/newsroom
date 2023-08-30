@@ -3,7 +3,7 @@ import { StyledContainer } from './articleCard.styles'
 import { ThumbsUp as Like,CommentChatMessageAlt as Comment, ArrowRight } from 'react-basicons'
 import DarknetImg from "../../assets/darknet.jpg"
 
-function ArticleCard({img,title,description}) {
+function ArticleCard({img,title,description,likeCount,commentCount}) {
   return (
     <StyledContainer>
         <div className="article-card">
@@ -14,11 +14,11 @@ function ArticleCard({img,title,description}) {
                       <div className="data-section">
                           <div className="like-icon vertical-centred">
                               <Like size={16}/>
-                              <span className='like-icon'>165</span>
+                      <span className='like-icon'>{ likeCount}</span>
                           </div>
                           <div className="comments-icon vertical-centred">
                               <Comment size={16}/>
-                              <span >16</span>
+                      <span >{ commentCount}</span>
                           </div>
                           <div className="more vertical-centred">
                             

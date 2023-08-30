@@ -7,7 +7,7 @@ function Spotlight() {
         <StyledContainer>
             <div className="spotlight-section">
                 <div className="title">NEWS</div>
-                <p className= "description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, magnam aut. Unde eos ipsam quidem id officia quisquam pariatur facere esse perferendis repellat, repellendus placeat, porro omnis hic ex corrupti.</p>
+                <p className= "description">THE LATEST AND MOST IMPORTANT NEWS FOR YOU</p>
                 <div className="dividers-container">
                     <div className="divider" />
                     <div className="icon-container"><Icon/></div>
