@@ -13,7 +13,6 @@
     "react-scripts": "5.0.1",
     "styled-components": "^6.0.7",
     "web-vitals": "^2.1.4"
-   
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,11 +32,13 @@
       "not dead",
       "not op_mini all"
     ],
-   
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
