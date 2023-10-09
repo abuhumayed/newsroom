@@ -19,13 +19,14 @@ const News = () => {
     <div className='liveNews'>
       <h1>Latest Updates</h1>
       <ul>
-        {newsData.map((article, index) => (
+        {newsData.map((article, index,description, publishedAt) => (
             <li key={index}>
             <h2>{article.title}</h2>
             <p>{article.description}</p>
-            <a href={article.url} target="_blank" rel="noopener noreferrer">
-              Read more
-            </a>
+            <a href={article.url} target="_blank" rel="noopener noreferrer" >
+              Read more  
+                </a>
+                <span class="liveAuthor">       {article.author}</span>
           </li>
         ))}
       </ul>

@@ -5,6 +5,8 @@ export const StyledContainer = styled.div`
 
   font-family: ${(props)=> props.theme.fonts.primary};
 }
-
+.liveAuthor{
+    text-decoration: none;
+}
 
 `

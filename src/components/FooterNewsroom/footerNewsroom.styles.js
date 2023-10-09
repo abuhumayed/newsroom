@@ -30,6 +30,7 @@ export const StyledContainer = styled.div`
   color: white;
   text-decoration: none;
   margin: 0 10px;
+  font-weight: 600;
   &:hover {
             background-color : red;
             color: black;
