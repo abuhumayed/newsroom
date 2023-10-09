@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyledContainer } from './articleCard.styles'
-import { ThumbsUp as Like,CommentChatMessageAlt as Comment, ArrowRight } from 'react-basicons'
-import DarknetImg from "../../assets/darknet.jpg"
+import { ThumbsUp as Like, CommentChatMessageAlt as Comment, ArrowRight } from 'react-basicons'
+
 
 function ArticleCard({img,title,description,likeCount,commentCount}) {
   return (
