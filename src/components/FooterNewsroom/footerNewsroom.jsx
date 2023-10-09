@@ -8,11 +8,11 @@ function footerNewsroom() {
     <div className="footer-content">
       <div className="footer-logo">THE NEWSROOM</div>
       <div className="footer-links">
-        <a>Home</a>
-        <a>News</a>
-        <a>Categories</a>
-        <a>About Us</a>
-        <a>Contact</a>
+        <a href = '/'>Home</a>
+        <a href = '/'>News</a>
+        <a href = '/'>Categories</a>
+        <a href = '/'>About Us</a>
+        <a href = '/'>Contact</a>
       </div>
     </div>
     <p className="footer-text">© {new Date().getFullYear()} THE NEWSROOM All rights reserved.</p>
