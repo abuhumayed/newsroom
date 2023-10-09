@@ -12,7 +12,8 @@
     "react-icons": "^4.10.1",
     "react-scripts": "5.0.1",
     "styled-components": "^6.0.7",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "."
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,6 +33,7 @@
       "not dead",
       "not op_mini all"
     ],
+   
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
